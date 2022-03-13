@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cryptojs": "^2.5.3",
+    "fs": "^0.0.1-security",
+    "quick.eco": "^6.0.0"
+  }
+}
