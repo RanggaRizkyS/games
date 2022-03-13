@@ -1,4 +1,4 @@
-import CryptoJS from ('cryptojs');
+import * from ('cryptojs');
 
 var encrypted = CryptoJS.AES.encrypt(anjime, "coinsEnc");
 console.log(encrypted);
