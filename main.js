@@ -1,4 +1,4 @@
-const CrytoJS = require("cryptojs");
+import { AES } from 'cryptojs';
 
 var encrypted = CryptoJS.AES.encrypt(anjime, "coinsEnc");
 console.log(encrypted);
